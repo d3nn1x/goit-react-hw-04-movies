@@ -1,0 +1,110 @@
+.header {
+  background-color: #dbf8f7;
+}
+
+.nav {
+  padding: 5px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+}
+.nav_item {
+  margin-right: 20px;
+}
+
+.nav_link {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+.nav_link--active {
+  color: tomato;
+}
+
+.trend_item {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.btn {
+  margin: 20px;
+}
+.card {
+  display: flex;
+}
+
+.poster {
+  height: 400px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  width: 500px;
+  margin-left: 20px;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.overview {
+  margin-bottom: 10px;
+}
+
+.genre {
+  margin-bottom: 10px;
+}
+
+.additionalInfo > ul {
+  display: flex;
+  list-style: none;
+}
+
+.addListItem {
+  margin-right: 20px;
+}
+
+.casts_list {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.casts_item {
+  width: calc((100% - 70px) / 6);
+  text-align: center;
+  padding: 0 20px;
+}
+
+.img {
+  width: 100%;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.reviewItem {
+  margin-bottom: 20px;
+}
+
+.reviewContentAuthor {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.reviewContent {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
